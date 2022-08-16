@@ -1,0 +1,32 @@
+
+.pagination-pagn {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+
+.pagination-pagn ul, li {
+    list-style: none; 
+}
+
+.pagination-pagn .page-num-pagn{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    background-color: #fff;
+    /* border: 1px solid black; */
+}
+
+.pagination-pagn .page-num-pagn:hover{
+    background-color: #5AB1BB;
+    color: #fff;
+}
+
+.pagination-pagn .active-pagn {
+    background-color: #5AB1BB;
+}
