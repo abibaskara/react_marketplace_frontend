@@ -61,6 +61,7 @@ const Sidebar = () => {
                 <li><Link to ={`../employee`}><i className="zmdi zmdi-account" /><span>Data Employee</span></Link></li>
                 <li><Link to ={`../users`}><i className="zmdi zmdi-account" /><span>Data User</span></Link></li>
                 <li><Link to ={`../category`}><i className="zmdi zmdi-inbox" /><span>Category</span></Link></li>
+                <li><Link to ={`../produk`}><i className="zmdi zmdi-inbox" /><span>Produk</span></Link></li>
                 <li><Link to={`..`} onClick={Logout}><i className="zmdi zmdi-account" /><span>Logout</span></Link></li>
                 <li><a href="javascript:void(0);" className="menu-toggle"><i className="zmdi zmdi-apps" /><span>App</span></a>
                     <ul className="ml-menu">

@@ -12,6 +12,8 @@ import UpdateEmployee from "./Pages/Employee/UpdateEmployee";
 import Category from "./Pages/Category/Category";
 import TambahCategory from "./Pages/Category/TambahCategory";
 import UpdateCategory from "./Pages/Category/UpdateCategory";
+import Produkss from "./Pages/Produk/Produkss";
+import TambahProduk from "./Pages/Produk/TambahProduk";
 
 
 function App() {
@@ -28,10 +30,12 @@ function App() {
       <Route path="users/editUsers/:id" element={<UpdateUser/>}/>
       <Route path="employee" element={<Employee/>}/>
       <Route path="employee/addEmployee" element={<TambahEmployee/>}/>
-      <Route path="employee/editEmployee/:id" element={<UpdateEmployee/>}/>\
+      <Route path="employee/editEmployee/:id" element={<UpdateEmployee/>}/>
       <Route path="category" element={<Category/>}/>
       <Route path="category/addCategory" element={<TambahCategory/>}/>
       <Route path="category/editCategory/:id" element={<UpdateCategory/>}/>
+      <Route path="produk" element={<Produkss/>}/>
+      <Route path="produk/addProduk" element={<TambahProduk/>}/>
       
     </Routes>
     </BrowserRouter>
